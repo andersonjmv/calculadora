@@ -1,0 +1,83 @@
+.container {
+    max-width: 540px;
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    align-items: center
+}
+.calculator {
+    font-family:  Verdana, ;
+    width: 320px;
+    padding: 12px;
+    background: rgb(251, 255, 0);
+    height: 422px;
+    background-color: #cfd8dc;
+    border: 1px solid #cfd8dc;
+}
+.button{
+    width: 65px;
+    height: 45px;
+    margin-top: 12px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #90a4ae;
+    border-color: #90a4ae;
+    color: #ffffff;
+    box-shadow: 0px 5px 0px #6b8694;
+    transition: all 0.1s;
+}
+.button:hover{
+    opacity: 0.9;
+}
+.button:active{
+    transform: scale(0.95);
+}
+.orange{
+    background-color: #0011ff;
+    border-color: #0011ff;
+    color: #ffffff;
+    box-shadow: 0px 5px 0px #cc7a00;
+    color: #ffffff;
+}
+
+.light-grey{
+    background-color: #546e7a;
+    border-color: #546e7a;
+    color: #ffffff;
+    box-shadow: 0px 5px 0px #3f525a;
+}
+.ac{
+    background-color: #9700ee;
+    border-color: #ffffff;
+    color: #ffffff;
+    box-shadow: 0px 5px 0px #ee0000;
+    color: #ffffff;
+    padding-right: 125px;
+}
+.cero{
+    padding-right: 125px;
+}
+.display{
+    background: #fff;
+    margin-right: 5px;
+    padding: 15px,10 ,10 ,10;
+    min-height: 50px;
+    text-align: right;
+    font-size: 32px;
+    position: relative;
+    padding-top:20px;
+}
+.display small {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #fff;
+    font-size: 13px;
+}
+
+body{
+    background: #00b09b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
